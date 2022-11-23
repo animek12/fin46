@@ -23,7 +23,7 @@ function start() {
 if (!process.env.DATABASE_URL) {
    console.log(colors.red(`You have to setup the database first.`))
 } else {
-   CFonts.say('kanna md', {
+   CFonts.say('fin md', {
       font: 'tiny',
       align: 'center',
       colors: ['system']
