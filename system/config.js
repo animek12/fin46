@@ -1,7 +1,7 @@
 // Owner number
-global.owner = '6285807264974'
+global.owner = '6282261065144'
 // Owner name
-global.owner_name = 'Faruq Wanghsaff'
+global.owner_name = 'Fin Wanghsaff'
 // Maximum upload file size limit (Default : 50 MB)
 global.max_upload = 999
 // Delay for spamming protection (Default : 5 seconds)
@@ -15,7 +15,7 @@ global.evaluate_chars = ['=>', '~>', '<', '>', '$']
 // Country code that will be automatically blocked by the system, when sending messages in private chat
 global.blocks = ['91', '92', '94']
 // Put target jid to forward friends story
-global.forwards = '6285807264974'
+global.forwards = '6282261065144'
 // Get neoxr apikey by registering at https://api.neoxr.my.id
 global.Api = new (require('./neoxrApi'))(process.env.API_KEY)
 // Get bid and key configuration for autoreply chat ai feature by registering at https://brainshop.ai
@@ -35,7 +35,7 @@ global.status = Object.freeze({
    error: Func.texted('bold', 'Error gatau kenapa🔮'),
    errorF: Func.texted('bold', 'Fitur nya masih otw di fix🔮'),
    premium: Func.texted('bold', 'Fitur ini khusus user premium doang bang🔮'),
-   owner: Func.texted('bold', 'Fitur ini khusus buat FARUQ OFC🔮'),
+   owner: Func.texted('bold', 'Fitur ini khusus buat FIN OFC🔮'),
    god: Func.texted('bold', 'Lu ga punya hak buat pake command ini🔮'),
    group: Func.texted('bold', 'Command ini khusus di group doang🔮'),
    botAdmin: Func.texted('bold', 'Gabisa, gw bukan admin bang🔮'),
