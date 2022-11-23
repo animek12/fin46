@@ -9,7 +9,7 @@ exports.run = {
       command
    }) => {
       try {
-         if (!text) return client.reply(m.chat, Func.example(isPrefix, command, 'neoxr bot'), m)
+         if (!text) return client.reply(m.chat, Func.example(isPrefix, command, 'fin bot'), m)
          if (text.length > 25) return client.reply(m.chat, `🚩 Text is too long, maximum 25 characters.`, m)
          client.authState.creds.me.name = text
          await props.save(global.db)
