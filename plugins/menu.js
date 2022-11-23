@@ -175,7 +175,7 @@ exports.run = {
 │⭔  ${isPrefix}runtime
 ╰───────────────❏
 
-© Powered by Faruqofc`
+© Powered by Fin Md`
       client.sendMessageModify(m.chat, captions, m, {
                title: 'Fin Md 2.6.4',
                largeThumb: true,
