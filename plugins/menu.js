@@ -177,7 +177,7 @@ exports.run = {
 
 © Powered by Faruqofc`
       client.sendMessageModify(m.chat, captions, m, {
-               title: '𝑲𝑨𝑵𝑵𝑨 𝑽 2.6.4',
+               title: 'Fin Md 2.6.4',
                largeThumb: true,
                thumbnail: await Func.fetchBuffer('https://telegra.ph/file/f261207c92571791a4007.jpg'),
                url: ''
